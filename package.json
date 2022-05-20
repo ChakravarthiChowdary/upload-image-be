@@ -1,0 +1,32 @@
+{
+  "name": "uploadimages",
+  "version": "1.0.0",
+  "description": "Upload Images Backend",
+  "main": "index.js",
+  "author": "Chakravarthi Katragadda",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "15.14.0"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.10.5",
+    "@types/mongoose-unique-validator": "^1.0.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.3.1",
+    "mongoose": "^5.12.7",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/express-fileupload": "^1.2.2",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^15.0.1",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon dist/app.js"
+  }
+}
